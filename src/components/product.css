@@ -1,0 +1,44 @@
+.product{
+    color: blue;
+    border: solid 1px black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px green;
+    margin: 10px;
+}
+
+.product label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.product .price {
+    color: rgb(135, 141, 141);
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.product .total{
+    color: rgb(11, 14, 238);
+    font-weight: bold;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.product .btn-add{
+    width: 80px;
+    height: 40px;
+}
+
+.product .prod-category{
+    display: block;
+    text-align: right;
+}
+
+.product img{
+    height: 300px;
+    width: 250px;
+}
+
