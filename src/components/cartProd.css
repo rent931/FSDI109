@@ -1,0 +1,29 @@
+.cart-prod img{
+    height: 200px;
+    width: 150px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.cart-prod{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.cart-prod h6{
+    flex: 6;
+}
+
+.cart-prod label{
+    flex: 1;
+    justify-content: right;
+
+}
+
+.cart-prod button{
+    flex: 1;
+}

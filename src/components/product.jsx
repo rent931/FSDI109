@@ -22,7 +22,7 @@ const Product = (props) => {
       quantity: quantity,
     };
 
-    add2cart();
+    add2cart(prod);
   };
 
   return (
