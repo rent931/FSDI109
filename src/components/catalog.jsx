@@ -6,9 +6,9 @@ import DataService from "../services/dataService";
 const Catalog = () => {
   let [products, setProducts] = useState([]);
 
-  const loadCatalog = () => {
+  const loadCatalog = async () => {
     let service = new DataService();
-    let data = service.getCatalog();
+    let data = await service.getCatalog();
     setProducts(data);
     console.log("Retrived", data);
   };
